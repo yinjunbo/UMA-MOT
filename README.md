@@ -11,7 +11,7 @@ Please refer the [paper](https://arxiv.org/pdf/2003.11291.pdf) for the full deta
 * python3
 * tensorflow-gpu==1.15.0
 
-## Running the tracker
+## Testing
 
 1. Clone this repo and install dependencies
 ```
@@ -38,7 +38,7 @@ python3 show_results.py \
        --detection_file=UMA-MOT/UMA-TEST/filtered_detections/MOT16-train
 ```
 
-## Training the model
+## Training 
 
 Will be releasing.
 
