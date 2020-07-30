@@ -42,7 +42,7 @@ python3 show_results.py \
 
 Will be releasing.
 
-## Results on the MOT16 benchmark.
+## Results on the MOT16 train set.
 
 ```
           IDF1   IDP   IDR  Rcll  Prcn  GT  MT  PT  ML   FP    FN IDs    FM  MOTA  MOTP IDt IDa IDm
