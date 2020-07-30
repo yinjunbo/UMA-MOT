@@ -1,0 +1,34 @@
+{
+  "z_image_size": 127,
+  "embed_config": {
+    "embedding_name": "convolutional_alexnet",
+    "embedding_checkpoint_file": null,
+    "train_embedding": true,
+    "init_method": "kaiming_normal",
+    "use_bn": true,
+    "bn_scale": true,
+    "bn_momentum": 0.05,
+    "bn_epsilon": 1e-06,
+    "embedding_feature_num": 256,
+    "weight_decay": 0.0005,
+    "stride": 8
+  },
+  "adjust_response_config": {
+    "train_bias": true,
+    "scale": 0.001
+  },
+  "channels": 256,
+  "finetune": false,
+  "dataset": "MOT17_ALL",
+  "debug": false,
+  "specific_conv": false,
+  "attention": "se_block",
+  "reid_attention": true,
+  "track_loss": true,
+  "triplet": "npair",
+  "extra_fc": false,
+  "loss2_ratio": 0.1,
+  "id_loss": true,
+  "id_num": 522,
+  "idloss_ratio": 0.1
+}

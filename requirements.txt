@@ -1,0 +1,12 @@
+sacred                                                                                              
+scipy
+matplotlib                                                                                                     
+numba
+numPy
+pillow
+scikit-learn==0.22.2
+matplotlib                                                                                                
+numPy                                                                                                      
+opencv-python
+                                                                                           
+

@@ -1,0 +1,13 @@
+{
+  "log_dir": "./models/npair0.1-id0.1-se_block2",
+  "log_level": 0,
+  "x_image_size": 255,
+  "upsample_method": "bicubic",
+  "upsample_factor": 16,
+  "num_scales": 3,
+  "scale_step": 1.0375,
+  "scale_damp": 0.5,
+  "scale_penalty": 0.9,
+  "window_influence": 0.3,
+  "include_first": false
+}

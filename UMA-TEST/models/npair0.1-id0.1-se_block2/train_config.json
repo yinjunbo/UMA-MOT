@@ -1,0 +1,46 @@
+{
+  "train_dir": "../UMA-TRAIN/Logs/MOT17_ALL/track_model_checkpoints/200314-UMA-npair0.1-id0.1-se_block2",
+  "seed": 123,
+  "train_data_config": {
+    "input_imdb": "../UMA-TRAIN//data/MOT17_ALL/train_imdb.pickle",
+    "preprocessing_name": "siamese_fc_color",
+    "num_examples_per_epoch": 53200.0,
+    "epoch": 50,
+    "batch_size": 8,
+    "max_frame_dist": 100,
+    "prefetch_threads": 4,
+    "prefetch_capacity": 120
+  },
+  "validation_data_config": {
+    "input_imdb": "../UMA-TRAIN/data/validation_imdb.pickle",
+    "preprocessing_name": "None",
+    "batch_size": 8,
+    "max_frame_dist": 100,
+    "prefetch_threads": 1,
+    "prefetch_capacity": 90
+  },
+  "gt_config": {
+    "rPos": 16,
+    "rNeg": 0
+  },
+  "gt_config_neg": {
+    "rPos": -1,
+    "rNeg": 0
+  },
+  "optimizer_config": {
+    "optimizer": "MOMENTUM",
+    "momentum": 0.9,
+    "use_nesterov": false
+  },
+  "lr_config": {
+    "policy": "exponential",
+    "initial_lr": 0.01,
+    "num_epochs_per_decay": 1,
+    "lr_decay_factor": 0.8685113737513527,
+    "staircase": true
+  },
+  "clip_gradients": null,
+  "log_every_n_steps": 10,
+  "save_model_every_n_step": 6650.0,
+  "max_checkpoints_to_keep": null
+}
