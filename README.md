@@ -61,7 +61,7 @@ OVERALL  59.9% 84.1% 46.5% 50.3% 91.0% 517 105 229 183 5502 54855 228  1164 45.1
 
 ## Citation
 
-If you find this repo useful in your research, please consider citing the following papers:
+If you find this project helpful in your research, please consider citing the following paper:
 
     @inproceedings{yin2020unified,
       title={A Unified Object Motion and Affinity Model for Online Multi-Object Tracking},
