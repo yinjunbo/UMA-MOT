@@ -13,18 +13,18 @@ Please refer the [paper](https://arxiv.org/pdf/2003.11291.pdf) for the full deta
 
 ## Running the tracker
 
-2. Clone this repo and install dependencies
+1. Clone this repo and install dependencies
 ```
 pip3 install -r requirements.txt
 ```
-3. Modify `config/config.py` to add the data path. 
+2. Modify `config/config.py` to add the data path. 
 
-4. Run the inference code on MOT16 or MOT17 benchmarks. 
+3. Run the inference code on MOT16 or MOT17 benchmarks. 
 ```
 cd UMA-MOT/UMA-TEST
 python3 test.py
 ```
-5. Refer [py-motmetrics](https://github.com/cheind/py-motmetrics.git) for evaluating the tracking results in `UMA-TEST/outputs`.
+4. Refer [py-motmetrics](https://github.com/cheind/py-motmetrics.git) for evaluating the tracking results in `UMA-TEST/outputs`.
 ```
 cd UMA-MOT/motmetrics
 python3 -m motmetrics.apps.eval_motchallenge DataPath/MOT-Challenge/MOT16/train ~/UMA-MOT/UMA-TEST/outputs/MOT16/MOT16_train-occ_0.8-ass_0.7-npair0.1-id0.1-se_block2-20200729_220301
