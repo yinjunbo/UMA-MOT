@@ -38,9 +38,9 @@ python3 show_results.py \
        --detection_file=UMA-MOT/UMA-TEST/filtered_detections/MOT16-train
 ```
 
-## Training 
+<!-- ## Training 
 
-Will be releasing.
+Will be releasing. -->
 
 ## Results on the MOT16 train set.
 
